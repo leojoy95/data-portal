@@ -58,7 +58,7 @@ class Metadata extends React.Component {
 
 			// Check for internal references
 			if (this.getPropertyRef(property)[1].includes('#')) {
-				this.getPropertyRefProperties(property).definitions[this.getInternalRef(property)].properties.map((i2, l) => {
+				this.getPropertyRefProperties(property).definitions[this.getInternalRef(property)].properties.forEach((i2, l) => {
 					if (l === 0) {
 						TOCLink = `${property.name}-${i2.name}`;
 					}
