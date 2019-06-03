@@ -37,7 +37,7 @@ class TOCSpy extends React.Component {
 		let currentScrollPos = window.scrollY;
 
 		anchorables.forEach(pageAnchor => {
-			if (pageAnchor.tagName.toUpperCase().split('H')[1] <= 3) {
+			if (pageAnchor.tagName.toUpperCase().split('H')[1] <= 3 || pageAnchor.tagName === 'DIV') {
 				this.elementIdsByAnchorFromTop.set((pageAnchor.getBoundingClientRect().top + currentScrollPos), pageAnchor.id);
 			}
 		});
@@ -50,8 +50,8 @@ class TOCSpy extends React.Component {
 
 	handleScroll = () => {
 
-		let currentScrollPos = window.scrollY + 24;
-		let endScrollPos = document.body.clientHeight - window.innerHeight + 24;
+		let currentScrollPos = window.scrollY + 28;
+		let endScrollPos = document.body.clientHeight - window.innerHeight + 28;
 
 		// Check not at the bottom of the page
 		if (currentScrollPos !== endScrollPos) {

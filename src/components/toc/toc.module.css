@@ -29,6 +29,11 @@
 	width: 100%; /* Improves click-able area on link */
 }
 
+/* TOC - link required */
+.tocs li a span {
+	padding-left: 2px;
+}
+
 /* TOC - depth 3 */
 .tocs li a.depth3 {
 	//margin-left: 8px;

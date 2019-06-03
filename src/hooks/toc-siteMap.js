@@ -1,9 +1,9 @@
 import {useStaticQuery, graphql} from 'gatsby';
 
-export const tocSiteMap = (docPath) => {
+export const TOCSiteMap = (docPath) => {
 	const {allMarkdownRemark} = useStaticQuery(
 		graphql`
-		query TocSiteMap {
+		query TOCSiteMap {
 		  allMarkdownRemark {
 			edges {
 			  node {
