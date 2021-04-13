@@ -23,7 +23,7 @@
     "gatsby-remark-responsive-iframe": "^2.1.1",
     "gatsby-source-filesystem": "^2.0.38",
     "gatsby-transformer-json": "^2.1.11",
-    "gatsby-transformer-remark": "^2.3.12",
+    "gatsby-transformer-remark": "^4.0.0",
     "gatsby-transformer-yaml": "^2.1.12",
     "js-cookie": "^2.2.0",
     "katex": "^0.10.2",
