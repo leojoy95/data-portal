@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "dependencies": {
     "classnames": "^2.2.6",
-    "gatsby": "^2.8.3",
+    "gatsby": "^2.16.2",
     "gatsby-plugin-catch-links": "^2.0.15",
     "gatsby-plugin-favicon": "^3.1.6",
     "gatsby-plugin-google-tagmanager": "^2.0.15",
@@ -40,7 +40,8 @@
     "react-linkify": "^0.2.2",
     "react-typography": "^0.16.19",
     "shallow-equal": "1.0.0",
-    "typography": "^0.16.19"
+    "typography": "^0.16.19",
+    "@snyk/protect": "latest"
   },
   "keywords": [
     "gatsby"
@@ -50,10 +51,13 @@
     "build": "source ./set-dev-env.sh && gatsby build",
     "start": "source ./set-dev-env.sh && gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
-    "gatsby-cli": "^2.6.4",
+    "gatsby-cli": "^2.12.14",
     "prettier": "^1.17.1"
-  }
+  },
+  "snyk": true
 }
