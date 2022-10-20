@@ -1,0 +1,88 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - gatsby-transformer-remark > unified > extend:
+        patched: '2022-10-20T03:44:16.347Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - npm > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2022-10-20T03:44:16.347Z'
+    - npm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2022-10-20T03:44:16.347Z'
+    - npm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2022-10-20T03:44:16.347Z'
+    - npm > libnpmaccess > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2022-10-20T03:44:16.347Z'
+    - npm > libnpmhook > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2022-10-20T03:44:16.347Z'
+    - npm > libnpmorg > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2022-10-20T03:44:16.347Z'
+    - npm > libnpmsearch > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2022-10-20T03:44:16.347Z'
+    - npm > libnpmteam > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2022-10-20T03:44:16.347Z'
+    - npm > npm-profile > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2022-10-20T03:44:16.347Z'
+    - npm > libnpm > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2022-10-20T03:44:16.347Z'
+    - npm > libnpm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2022-10-20T03:44:16.347Z'
+    - npm > libcipm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2022-10-20T03:44:16.347Z'
+    - npm > libnpm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2022-10-20T03:44:16.347Z'
+    - npm > libnpm > libnpmaccess > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2022-10-20T03:44:16.347Z'
+    - npm > libnpm > libnpmhook > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2022-10-20T03:44:16.347Z'
+    - npm > libnpm > libnpmorg > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2022-10-20T03:44:16.347Z'
+    - npm > libnpm > libnpmpublish > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2022-10-20T03:44:16.347Z'
+    - npm > libnpm > libnpmsearch > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2022-10-20T03:44:16.347Z'
+    - npm > libnpm > libnpmteam > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2022-10-20T03:44:16.347Z'
+    - npm > libnpm > npm-profile > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2022-10-20T03:44:16.347Z'
+  SNYK-JS-LODASH-567746:
+    - gatsby > babel-eslint > @babel/traverse > lodash:
+        patched: '2022-10-20T03:44:16.347Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-10-20T03:44:16.347Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2022-10-20T03:44:16.347Z'
+    - gatsby > gatsby-cli > yurnalist > inquirer > lodash:
+        patched: '2022-10-20T03:44:16.347Z'
+    - gatsby > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-10-20T03:44:16.347Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-10-20T03:44:16.347Z'
+    - gatsby > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-10-20T03:44:16.347Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-10-20T03:44:16.347Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash:
+        patched: '2022-10-20T03:44:16.347Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/traverse > lodash:
+        patched: '2022-10-20T03:44:16.347Z'
+    - gatsby > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-10-20T03:44:16.347Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2022-10-20T03:44:16.347Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-10-20T03:44:16.347Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-10-20T03:44:16.347Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-10-20T03:44:16.347Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-10-20T03:44:16.347Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-10-20T03:44:16.347Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-10-20T03:44:16.347Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-10-20T03:44:16.347Z'
