@@ -24,7 +24,7 @@
     "gatsby-source-filesystem": "^2.0.38",
     "gatsby-transformer-json": "^2.1.11",
     "gatsby-transformer-remark": "^2.3.12",
-    "gatsby-transformer-yaml": "^2.1.12",
+    "gatsby-transformer-yaml": "^5.5.0",
     "js-cookie": "^2.2.0",
     "katex": "^0.10.2",
     "normalize.css": "^8.0.1",
