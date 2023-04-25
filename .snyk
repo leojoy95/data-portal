@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - gatsby-cli > yurnalist > inquirer > lodash:
+        patched: '2023-04-25T03:31:34.990Z'
+    - gatsby-cli > lodash:
+        patched: '2023-04-25T03:31:34.990Z'
